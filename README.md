@@ -1,4 +1,4 @@
-# XOR
+# One Time Pad
 This program was built in Python 3.9. It functions by first taking in 2 required arguments: A Plaintext File location, and a Ciphertext file location. A third optional argument (the key) can also be provided if the user is needing to decrypt via XOR. 
 
 This program functions as a One Time Pad. The user inputs a file containing plaintext. A cryptographically secure key is randomly generated via the 'sercets' module, that is the identical length of the plaintext itself. The plaintext is then XOR'd with the key to create the corresponding ciphertext. The ciphertext is then written to a file, and the key displayed to the user for decryption purposes
